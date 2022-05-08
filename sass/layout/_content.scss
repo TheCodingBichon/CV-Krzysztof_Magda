@@ -1,0 +1,12 @@
+.content {
+    display: flex;
+      
+}
+
+.details {
+    padding-left: var(--content-padding-left);
+
+    &__overall:not(:last-child) {
+        margin-bottom: var(--sidebar-element-mrg-btn);
+    }
+}

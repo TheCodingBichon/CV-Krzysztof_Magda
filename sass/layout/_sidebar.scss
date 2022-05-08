@@ -1,0 +1,20 @@
+.sidebar {
+    background-color: var(--color-grey-dark-3);
+    flex: 0 0 var(--sidebar-width);
+    padding-left: var(--sidebar-padding-left);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    list-style: none;
+
+    &__foreign {
+        margin-bottom: var(--content-element-mrg-btn);
+    }
+}
+
+.list:not(:last-child) {
+    margin-bottom: var(--content-element-mrg-btn);
+}

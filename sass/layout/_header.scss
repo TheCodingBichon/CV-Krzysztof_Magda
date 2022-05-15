@@ -1,21 +1,32 @@
 .header {
     font-size: 2rem;
-    background-color: var(--color-grey-dark-2);
 
+    background-color: rgba(65, 67, 69, 1);
+    background-image: linear-gradient(to right, rgba(65, 67, 69, 1), rgba(35, 37, 38, 0.8)), url(../../img/iron-pour-gde268f21b_1920-pixabay.jpg);
+    background-position: 35vw 60%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
     &__description {
         padding: var(--header-description-padding);
+        color: white;
     }
 
-    &__name {
+    &__name {        
         flex: 0 0 var(--sidebar-width);
+        
+        text-transform: uppercase;
+        color: white;
         width: 40rem;
-        height: 10rem;
+        height: 30rem;       
         display: flex;
         align-items: center;
         justify-content: center;
+       
     }
-}   
+}

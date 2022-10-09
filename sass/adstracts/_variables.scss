@@ -1,41 +1,38 @@
 :root {
-    --color-moonlit-dark: #0F2027;
-    --color-moonlit-medium: #203A43;
-    --color-moonlit-light: #2C5364;
+  --color-primary: black;
+  --color-primary-light: white;
+  --color-primary-dark: #f0eeee;
 
-    
-    --color-primary: black;
-    --color-primary-light: white;
-    --color-primary-dark: #f0eeee;
+  --color-white: white;
+  --color-black: black;
 
-    --color-grey-light-1: #faf9f9;
-    --color-grey-light-2: #f4f2f2;
-    --color-grey-light-3: #f0eeee;
-    --color-grey-light-4: #ccc;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
 
-    --color-grey-dark-1: #333;
-    --color-grey-dark-2: #777;
-    --color-grey-dark-3: #999;
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
 
-    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
-    --shadow-light:  0 2rem 5rem rgba(0,0,0,.06);
+  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
 
-    --line: 1px solid var(--color-grey-light-2);
+  --line: 1px solid var(--color-grey-light-2);
 
-    //typography
-    --font-size-header-paragraph: 2.2rem;
-    --font-size-content-paragraph: 2.0rem;
+  //typography
+  --font-size-header-paragraph: 2.2rem;
+  --font-size-content-paragraph: 2rem;
 
-    //header parameters
-    --header-description-padding: 2rem;
+  //header parameters
+  --header-description-padding: 2rem;
 
-    //sidebar parameters
-    --sidebar-width: 30%;
-    --sidebar-padding-left: 2rem;
-    --sidebar-element-mrg-btn: 2rem;
+  //sidebar parameters
+  --sidebar-width: 30%;
+  --sidebar-padding-left: 2rem;
+  --sidebar-element-mrg-btn: 2rem;
 
-    //content parameters
-    --content-element-mrg-btn: 2.5rem;
-    --content-padding-left: 2.5rem;
-   
+  //content parameters
+  --content-element-mrg-btn: 2.5rem;
+  --content-padding-left: 2.5rem;
 }
